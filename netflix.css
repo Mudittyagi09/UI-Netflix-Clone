@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: 'poppins', sans-serif;
+  
+}
+body {
+    background-color: #000;
+    color: #fff;
+
+
+}
+ .header {
+    width: 100%px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(big-img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+ }
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+nav button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.lang-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+.lang-btn img {
+    width: 10px;
+    margin-left: 10px;
+
+}
+.main {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.main h1 {
+    font-size: 48px;
+    line-height: 61.6px;
+    width: 870.63px;
+    font-weight: 900;
+}
+.main h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.main p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email-signup {
+    margin-top: 25px;
+    
+
+    
+} 
+.email-signup input {
+    width: 376.75px;
+    height: 49px;
+    color: transparent;
+    background: transparent;
+    border: 0.2px solid white;
+    border-radius: 4px;
+    padding-left: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    
+    
+}
+   
+.email-signup button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: rgb(255 255 255);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+    margin-left: 0.5rem;
+    border-radius: 4px;
+
+}
+
+ .first {
+    height: 481px;
+    width: 964.8px;
+    padding: 72px 0px;
+    align-items: center;
+    
+    padding: 50px 20%;
+    display: flex;
+    
+    border-top: 8px solid #232323;
+    
+    
+}
+.text {
+   
+    height: 192px;
+    width: 450;
+    
+    text-align: left;
+    
+    
+   
+}
+.one {
+    width: 444px;
+    height: 333px;
+    
+}
+.text h1 {
+    height: 61px;
+    width: 444px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.text p {
+    height: 91px;
+    width: 444px;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 16px 0 0;
+}
+.text1 {
+    height: 285.6px;
+    width: 450.4px;
+    padding: 0 0 0 6px;
+    
+}
+.text1 h1 {
+    height: 184.8px;
+    width: 444px;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: -20px;
+}
+.text1 p {
+    height: 60.8px;
+    width: 444px;
+    font-size: 1.5rem;
+    margin: 2rem 0 0;
+}
+.text2 {
+    height: 162.4px;
+    width: 450.4px;
+    padding: 0 6px 0 0;
+    
+}
+.text2 h1 {
+    width: 444.4px;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+.text2 p {
+    height: 60.8px;
+    width: 444.4px;
+    margin: 16px 0 0;
+    font-size: 24px;
+}
+.text3 {
+    height: 162.4px;
+    width: 450.4px;
+    padding: 0 6px 0 0;
+    
+
+}
+.text3 h1 {
+    width: 444.4px;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+.text3 p {
+    height: 60.8px;
+    width: 444.4px;
+    margin: 16px 0 0;
+    font-size: 24px;
+
+}
+.buttons button {
+    height: 60px;
+    width: 900px;
+    background-color:#232323;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 20%;
+    text-align: left;
+    padding-left: 20px;
+}
+   .buttons {
+    border-top: 8px solid #232323;
+   }
+    
+
+.buttons h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 33px;
+    text-align: center;
+    
+
+}
+.buttons p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 8px solid #232323;
+}
+.foot-panel {
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+        font-size: 14px;
+        margin-top: 20px;
+}
+.foot-panel p {
+    margin-top: 20px;
+}
